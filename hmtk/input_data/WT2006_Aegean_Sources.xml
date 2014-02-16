@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+    <sourceModel name="Weatherill Burton Aegean Area Sources">
+        <areaSource id="1" name="Montenegro" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                              17.95 43.05
+                              17.80 42.40
+                              19.10 41.75
+                              20.25 41.75
+                              20.25 42.50
+                              19.20 42.50
+                              17.95 43.05
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>30.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.5" strike="330" dip="40.0" rake="90.0" />
+                <nodalPlane probability="0.5" strike="270" dip="40.0" rake="90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="5.0" />
+                <hypoDepth probability="0.7" depth="15.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="2" name="Albania" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                              19.25 41.75
+                              19.25 40.10
+                              20.40 38.95
+                              21.40 38.95
+                              20.25 40.45
+                              20.25 41.75
+                              19.25 41.75
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>30.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.5" strike="0" dip="40.0" rake="90.0" />
+                <nodalPlane probability="0.5" strike="45" dip="90.0" rake="0.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="5.0" />
+                <hypoDepth probability="0.7" depth="15.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="3" name="TRGZ" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                              22.75 40.90
+                              22.75 40.35
+                              23.95 40.35
+                              23.95 40.90
+                              22.75 40.90
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>30.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.5" strike="90" dip="60.0" rake="-90.0" />
+                <nodalPlane probability="0.5" strike="270" dip="60.0" rake="-90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="5.0" />
+                <hypoDepth probability="0.7" depth="10.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="4" name="Cephalonia Transform" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                              20.40 38.95
+                              20.20 38.40
+                              19.75 37.70
+                              20.05 37.40
+                              20.70 38.30
+                              20.90 38.95
+                              20.40 38.95
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.6" strike="35" dip="90.0" rake="0.0" />
+                <nodalPlane probability="0.4" strike="25" dip="90.0" rake="0.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="5.0" />
+                <hypoDepth probability="0.7" depth="10.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="5" name="South Ionian" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                              20.90 38.95
+                              20.70 38.30
+                              20.05 37.40
+                              21.00 36.50
+                              21.80 37.75
+                              21.40 38.05
+                              21.40 38.95
+                              20.90 38.95
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>30.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.5" strike="35" dip="90.0" rake="0.0" />
+                <nodalPlane probability="0.5" strike="300" dip="30.0" rake="90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="5.0" />
+                <hypoDepth probability="0.7" depth="10.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="6" name="Gulf of Corinth" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                                21.40 38.55
+                                22.30 38.55
+                                22.80 38.45
+                                24.00 38.45
+                                24.00 38.00
+                                22.75 38.00
+                                22.30 38.10
+                                21.40 38.10
+                                21.40 38.55
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.5" strike="90" dip="60.0" rake="-90.0" />
+                <nodalPlane probability="0.5" strike="270" dip="60.0" rake="-90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="5.0" />
+                <hypoDepth probability="0.7" depth="10.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="7A" name="West Hellenic Outer" tectonicRegion="Subduction Interface">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                                21.20 36.80
+                                22.30 36.00
+                                23.25 35.45
+                                22.55 34.85
+                                21.80 35.30
+                                20.75 36.10 
+                                21.20 36.80
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>40.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="1.0" strike="300" dip="30.0" rake="90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="15.0" />
+                <hypoDepth probability="0.7" depth="25.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="7B" name="East Hellenic Outer" tectonicRegion="Subduction Interface">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                                23.25 35.45
+                                23.50 35.30
+                                25.10 34.90
+                                26.20 35.00
+                                26.90 35.30
+                                27.60 35.80
+                                28.25 36.55
+                                29.30 36.55
+                                28.70 35.50
+                                27.90 34.90
+                                26.50 34.20
+                                25.05 34.00
+                                23.10 34.50
+                                22.55 34.85
+                                23.25 35.45
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>40.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.2" strike="300" dip="30.0" rake="90.0" />
+                <nodalPlane probability="0.4" strike="270" dip="30.0" rake="90.0" />
+                <nodalPlane probability="0.4" strike="220" dip="30.0" rake="90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="15.0" />
+                <hypoDepth probability="0.7" depth="25.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="8A" name="West Hellenic Inner" tectonicRegion="Subduction Interface">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                                21.80 37.75
+                                23.90 36.50
+                                24.45 36.35
+                                24.15 36.15
+                                23.50 35.30
+                                22.30 36.00
+                                21.20 36.80
+                                21.80 37.75
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>20.0</upperSeismoDepth>
+                <lowerSeismoDepth>60.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="1.0" strike="300" dip="30.0" rake="90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="30.0" />
+                <hypoDepth probability="0.7" depth="45.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="8B" name="East Hellenic Inner" tectonicRegion="Subduction Interface">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                                24.45 36.35
+                                25.30 36.10
+                                26.60 36.30
+                                27.30 36.55
+                                28.25 36.55
+                                27.60 35.80
+                                26.90 35.30
+                                26.20 35.00
+                                25.10 34.90
+                                23.50 35.30
+                                24.15 36.15
+                                24.45 36.35
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>20.0</upperSeismoDepth>
+                <lowerSeismoDepth>60.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.5" strike="270.0" dip="30.0" rake="90.0" />
+                <nodalPlane probability="0.5" strike="230.0" dip="30.0" rake="90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="30.0" />
+                <hypoDepth probability="0.7" depth="45.0" />
+            </hypoDepthDist>
+        </areaSource>
+        
+        <areaSource id="9" name="Cyclades" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                                25.30 36.70
+                                26.60 36.85
+                                27.30 37.10 
+                                29.30 37.10
+                                29.30 36.55
+                                27.30 36.55
+                                26.60 36.30
+                                25.30 36.10
+                                25.30 36.70
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>30.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.5" strike="270.0" dip="60.0" rake="-90.0" />
+                <nodalPlane probability="0.5" strike="270.0" dip="60.0" rake="-90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="5.0" />
+                <hypoDepth probability="0.7" depth="15.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="10" name="North Anatolian Fault - Main Branch" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                                31.00 40.50
+                                29.00 40.50
+                                28.60 40.70
+                                27.90 40.70
+                                26.00 39.90
+                                25.20 39.90
+                                23.30 38.80
+                                23.10 39.80
+                                24.40 40.50
+                                25.60 40.75
+                                26.40 40.75
+                                27.90 41.20
+                                28.90 41.20
+                                29.50 41.00
+                                31.00 41.00
+                                31.00 40.50
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.5" strike="270.0" dip="90.0" rake="0.0" />
+                <nodalPlane probability="0.25" strike="270.0" dip="60.0" rake="-90.0" />
+                <nodalPlane probability="0.25" strike="90.0" dip="60.0" rake="-90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="5.0" />
+                <hypoDepth probability="0.7" depth="15.0" />
+            </hypoDepthDist>
+        </areaSource>
+        <areaSource id="11" name="North Anatolian Fault - Southenrn Branch" tectonicRegion="Active Shallow Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                                30.50 40.50
+                                29.80 40.00
+                                28.20 40.00
+                                25.10 38.10
+                                24.25 39.35
+                                25.20 39.90
+                                26.00 39.90
+                                27.90 40.70
+                                28.60 40.70
+                                29.00 40.50
+                                30.50 40.50
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.5</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.4" strike="270.0" dip="90.0" rake="0.0" />
+                <nodalPlane probability="0.3" strike="270.0" dip="60.0" rake="-90.0" />
+                <nodalPlane probability="0.3" strike="90.0" dip="60.0" rake="-90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.3" depth="5.0" />
+                <hypoDepth probability="0.7" depth="15.0" />
+            </hypoDepthDist>
+        </areaSource>
+    </sourceModel>
+</nrml>
+
