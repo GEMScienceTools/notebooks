@@ -1,4 +1,4 @@
 notebooks
 =========
 
-GEM respository for placing ipython notebook examples demonstrating use of GEM scientific libraries (e.g., oq-hazardlib,  hmtk etc.))
+GEM respository for placing IPython notebook examples demonstrating the use of GEM scientific libraries (e.g., oq-hazardlib,  hmtk etc.)
