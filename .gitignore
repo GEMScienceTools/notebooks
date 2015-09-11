@@ -36,3 +36,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Vim
+*.swp
+
+# Ipython Notebook
+*.ipynb_checkpoints/
