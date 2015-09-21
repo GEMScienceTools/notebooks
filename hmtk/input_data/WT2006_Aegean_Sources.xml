@@ -28,7 +28,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.5" strike="330" dip="40.0" rake="90.0" />
@@ -66,7 +66,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.5" strike="0" dip="40.0" rake="90.0" />
@@ -102,7 +102,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.5" strike="90" dip="60.0" rake="-90.0" />
@@ -140,7 +140,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.6" strike="35" dip="90.0" rake="0.0" />
@@ -179,7 +179,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.5" strike="35" dip="90.0" rake="0.0" />
@@ -219,7 +219,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.5" strike="90" dip="60.0" rake="-90.0" />
@@ -242,7 +242,7 @@
                                 23.25 35.45
                                 22.55 34.85
                                 21.80 35.30
-                                20.75 36.10 
+                                20.75 36.10
                                 21.20 36.80
                             </gml:posList>
                         </gml:LinearRing>
@@ -257,7 +257,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="1.0" strike="300" dip="30.0" rake="90.0" />
@@ -302,7 +302,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.2" strike="300" dip="30.0" rake="90.0" />
@@ -342,7 +342,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="1.0" strike="300" dip="30.0" rake="90.0" />
@@ -384,7 +384,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.5" strike="270.0" dip="30.0" rake="90.0" />
@@ -425,7 +425,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.5" strike="270.0" dip="60.0" rake="-90.0" />
@@ -472,7 +472,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.5" strike="270.0" dip="90.0" rake="0.0" />
@@ -515,7 +515,7 @@
 
             <ruptAspectRatio>1.5</ruptAspectRatio>
 
-            <truncGutenbergRichterMFD aValue="0.0" bValue="0.0" minMag="4.5" maxMag="0.0" />
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
 
             <nodalPlaneDist>
                 <nodalPlane probability="0.4" strike="270.0" dip="90.0" rake="0.0" />
