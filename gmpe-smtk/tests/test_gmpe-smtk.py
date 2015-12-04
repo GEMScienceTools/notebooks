@@ -5,7 +5,7 @@ class TestGmpeSmtk(object):
     def test_notebooks(self):
         notebooks = []
 
-        for f in ["."]:
+        for f in ["ConditionalFields-Training.ipynb"]:
             notebooks += get_ipnb(f)
 
         for notebook in notebooks:
