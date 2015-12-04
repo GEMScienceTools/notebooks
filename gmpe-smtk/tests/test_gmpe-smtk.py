@@ -1,16 +1,14 @@
-from ipynb_runner import get_ipnb
-
-
 class TestGmpeSmtk(object):
-    def test_notebooks(self):
+    def test_notebook(self):
+        from ipynb_runner import get_ipnb
         notebooks = []
 
-        for f in ["ConditionalFields-Training.ipynb"]:
+        for f in ["."]:
             notebooks += get_ipnb(f)
 
         for notebook in notebooks:
             yield self.check_notebook, notebook
 
     def check_notebook(self, notebook):
-        from ipynb_runner import test_notebook
-        assert test_notebook(notebook)
+        from ipynb_runner import run_notebook
+        assert run_notebook(notebook)
