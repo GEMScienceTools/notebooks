@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <sourceModel
+    name="Template Simple Fault"
+    >
+        <simpleFaultSource
+        id="1_1"
+        name="A Simple Fault"
+        tectonicRegion="Active Shallow Crust"
+        >
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                        30.0 30.0 30.0 31.0
+                    </gml:posList>
+                </gml:LineString>
+                <dip>
+                    30.0
+                </dip>
+                <upperSeismoDepth>
+                    0.0
+                </upperSeismoDepth>
+                <lowerSeismoDepth>
+                    20.0
+                </lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>
+                WC1994
+            </magScaleRel>
+            <ruptAspectRatio>
+                1.5
+            </ruptAspectRatio>
+            <incrementalMFD
+            binWidth="0.1"
+            minMag="4.5"
+            >
+                <occurRates>
+                    0.0971211417387 0.0807818471064 0.0671914137858 0.0558873837162 0.0464851010369 0.0386646229385 0.0321598325836 0.0267493836278 0.0222491682009 0.0185060520467 0.0153926636386 0.0128030599553 0.0106491214301 0.00885755339963 0.00736739201842 0.00612792976843 0.00509698997324 0.00423949160142 0.00352625552195 0.00293301159081 0.00243957278146 0.00202914825659 0.00184661595792 0.00231362389313 0.00360190992617 0.00915138442722 0.00243432469089 0.000909841780938 0.000164472079868 0.0
+                </occurRates>
+            </incrementalMFD>
+            <rake>
+                -90.0
+            </rake>
+        </simpleFaultSource>
+    </sourceModel>
+</nrml>
