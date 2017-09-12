@@ -6,863 +6,870 @@ xmlns:gml="http://www.opengis.net/gml"
     <sourceModel
     name="Gulf of Corinth Faults"
     >
-        <simpleFaultSource
-        id="GRCS438_1"
-        name="Itea Gulf"
+        <sourceGroup
+        rup_interdep="indep"
+        src_interdep="indep"
+        srcs_weights="1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0"
         tectonicRegion="Active Shallow Crust"
         >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.44945 38.428572 22.471746 38.398821 22.49404 38.376944 22.511876 38.362069 22.531942 38.349818 22.552008 38.338442 22.5665 38.334067 22.596598 38.329692 22.61332 38.327942
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    65.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    10.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+            <simpleFaultSource
+            id="GRCS355_1"
+            name="Trichonida"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000755628921477 0.000620700516649 0.000546097386081 0.000553627826238 0.000571654579005 0.000423348512343 0.000340223037716 0.000380386077177 0.000423278794032 0.000238003281523 9.98245342284e-05 3.78454228815e-05 2.41307660838e-05 1.14646958203e-05 3.63734337759e-06 5.42279606384e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -85.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS443_1"
-        name="Ormos Eratinis North"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.045488 38.351713 22.08462 38.351713 22.109777 38.349517 22.143319 38.345125 22.169873 38.340733 22.197825 38.339635 22.229969 38.337439
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    67.5
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    9.5
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.46124551989"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            21.243935 38.593919 21.288864 38.583843 21.317747 38.574606 21.34449 38.56453 21.360536 38.555293 21.383 38.541858 21.410813 38.53598 21.452533 38.528423 21.488903 38.525064 21.511368 38.530102 21.528483 38.530102 21.560575 38.526743 21.598015 38.521705
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        60.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        15.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.00115217353371 0.000936521808118 0.000761233504691 0.00061875382254 0.000502941988953 0.000408806596482 0.000349372654274 0.000339106055534 0.000363282640018 0.000337766270137 0.000228567672591 0.000221724527867 0.000265156007089 0.00018062627149 9.06923309111e-05 3.18066523831e-05 1.48685793845e-05 8.78673562611e-06 3.5514750379e-06 7.03898747994e-07 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -85.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS357_1"
+            name="Nafpaktos"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    1.45267494436e-06 0.000281813448865 0.000274588777378 0.000294405777594 0.000237876865204 0.000184193043876 0.000179561272881 0.000214072724393 0.000144346578163 7.173393701e-05 2.51580083148e-05 1.20121984324e-05 7.01906950251e-06 2.80156483621e-06 5.47118400921e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -95.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS453_1"
-        name="Kineta"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        23.179095 37.992273 23.196633 37.988831 23.209299 37.985772 23.22294 37.980036 23.230735 37.976212 23.240478 37.974682 23.262888 37.975447 23.273118 37.975829 23.289682 37.973152 23.305271 37.969711 23.326707 37.970475 23.363244 37.970858 23.402705 37.967416 23.429012 37.965887
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    60.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    13.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            21.806534 38.386806 21.776425 38.407487 21.746316 38.428167 21.703662 38.453771 21.676062 38.465588 21.648462 38.477405 21.6171 38.498085 21.599536 38.520735
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        70.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        14.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000376479706515 0.000306014194172 0.000248737675402 0.000202181573087 0.000165719016747 0.000144265197382 0.000144075920447 0.000149390972804 0.000116556530121 0.000102386510871 0.000117053955786 0.000119526230311 5.99580916725e-05 2.39171925872e-05 1.02991219314e-05 4.75377958459e-06 2.06548836835e-06 4.4570963158e-07 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -45.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS425_1"
+            name="Sarandis Bay"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000434980672869 0.000353565564849 0.000287388880574 0.000235649787784 0.000205706452081 0.000206794266113 0.00021556277424 0.00016232096576 0.000128585056421 0.000140001444851 0.000158576191274 9.29179632378e-05 4.02695022006e-05 1.48328810865e-05 9.03393177697e-06 4.48684067774e-06 1.49512865037e-06 2.3614801707e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS425_1"
-        name="Sarandis Bay"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.682583 38.304776 22.727132 38.298838 22.763077 38.29169 22.802013 38.287119 22.862906 38.27935 22.913259 38.267924 22.940192 38.261983 22.96654 38.258784 22.995815 38.259241 23.035629 38.268381 23.073101 38.286205 23.108817 38.298545 23.130481 38.301744 23.157414 38.301287 23.181419 38.299459 23.21128 38.301287 23.238213 38.305857 23.268659 38.31774 23.286225 38.321853
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    55.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    12.5
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.682583 38.304776 22.727132 38.298838 22.763077 38.29169 22.802013 38.287119 22.862906 38.27935 22.913259 38.267924 22.940192 38.261983 22.96654 38.258784 22.995815 38.259241 23.035629 38.268381 23.073101 38.286205 23.108817 38.298545 23.130481 38.301744 23.157414 38.301287 23.181419 38.299459 23.21128 38.301287 23.238213 38.305857 23.268659 38.31774 23.286225 38.321853
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        55.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        12.5
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000567304817811 0.000461122667884 0.000374814576151 0.000304660725399 0.000247637534681 0.000201287345136 0.000163612496644 0.00013408428325 0.000116749960151 0.000117024862137 0.000122362809495 9.26978398813e-05 7.31284740528e-05 7.88603281475e-05 8.98127206015e-05 5.33806000086e-05 2.34087529595e-05 8.54978611515e-06 5.11529491613e-06 2.579653561e-06 8.74252713056e-07 1.40854749964e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS430_1"
+            name="Delfi"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000567304817811 0.000461122667884 0.000374814576151 0.000304660725399 0.000247637534681 0.000201287345136 0.000163612496644 0.00013408428325 0.000116749960151 0.000117024862137 0.000122362809495 9.26978398813e-05 7.31284740528e-05 7.88603281475e-05 8.98127206015e-05 5.33806000086e-05 2.34087529595e-05 8.54978611515e-06 5.11529491613e-06 2.579653561e-06 8.74252713056e-07 1.40854749964e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS436_1"
-        name="Amygdalea"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.297054 38.400062 22.271897 38.398965 22.247439 38.398965 22.228572 38.40061 22.218789 38.405547 22.208307 38.411032 22.192235 38.414323 22.171969 38.416518 22.153102 38.417066
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    65.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    11.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.43593470222"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.698234 38.523002 22.670083 38.513643 22.641932 38.504284 22.610801 38.494406 22.582981 38.490246 22.55185 38.485047 22.523368 38.482967 22.500847 38.484007 22.481639 38.487126 22.450507 38.497005 22.40944 38.510004
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        57.5
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        12.5
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000576666160216 0.000468731852662 0.000380999553742 0.000309688063927 0.000256752810444 0.000233328821547 0.000242995473003 0.000241390345276 0.000171079358908 0.000148001947622 0.000177531951756 0.000182823420824 8.94063259645e-05 3.40059448479e-05 1.4388908101e-05 7.69148632673e-06 3.98438324572e-06 1.05729076531e-06 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS436_1"
+            name="Amygdalea"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    1.49733903045e-06 0.000290478112759 0.000283031310815 0.00030345760646 0.000245190650595 0.00018985626124 0.000185082081359 0.00022065462534 0.00014878467219 7.39394756616e-05 2.5931518902e-05 9.40388980811e-06 7.23487850075e-06 2.88770202299e-06 5.6394015685e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -95.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS355_1"
-        name="Trichonida"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        21.243935 38.593919 21.288864 38.583843 21.317747 38.574606 21.34449 38.56453 21.360536 38.555293 21.383 38.541858 21.410813 38.53598 21.452533 38.528423 21.488903 38.525064 21.511368 38.530102 21.528483 38.530102 21.560575 38.526743 21.598015 38.521705
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    60.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    15.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.297054 38.400062 22.271897 38.398965 22.247439 38.398965 22.228572 38.40061 22.218789 38.405547 22.208307 38.411032 22.192235 38.414323 22.171969 38.416518 22.153102 38.417066
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        65.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        11.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.43593470222"
+                >
+                    <occurRates>
+                        1.49733903045e-06 0.000290478112759 0.000283031310815 0.00030345760646 0.000245190650595 0.00018985626124 0.000185082081359 0.00022065462534 0.00014878467219 7.39394756616e-05 2.5931518902e-05 9.40388980811e-06 7.23487850075e-06 2.88770202299e-06 5.6394015685e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -95.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS437_1"
+            name="Tritaea"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.00115217353371 0.000936521808118 0.000761233504691 0.00061875382254 0.000502941988953 0.000408806596482 0.000349372654274 0.000339106055534 0.000363282640018 0.000337766270137 0.000228567672591 0.000221724527867 0.000265156007089 0.00018062627149 9.06923309111e-05 3.18066523831e-05 1.48685793845e-05 8.78673562611e-06 3.5514750379e-06 7.03898747994e-07 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -85.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS357_1"
-        name="Nafpaktos"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        21.806534 38.386806 21.776425 38.407487 21.746316 38.428167 21.703662 38.453771 21.676062 38.465588 21.648462 38.477405 21.6171 38.498085 21.599536 38.520735
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    70.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    14.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.429825 38.468628 22.411656 38.468628 22.385102 38.464239 22.352258 38.457657 22.318716 38.452172 22.291463 38.446687
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        65.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        10.5
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.39299530981"
+                >
+                    <occurRates>
+                        1.57627428405e-06 1.5647161874e-05 0.000297951878463 0.000319454987571 0.000295802660511 0.000199864917812 0.000194839057389 0.000232286879929 0.000156628156927 7.78373445767e-05 2.72985513369e-05 1.30342438667e-05 7.61627974495e-06 3.03993307212e-06 5.93669402124e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -95.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS438_1"
+            name="Itea Gulf"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000376479706515 0.000306014194172 0.000248737675402 0.000202181573087 0.000165719016747 0.000144265197382 0.000144075920447 0.000149390972804 0.000116556530121 0.000102386510871 0.000117053955786 0.000119526230311 5.99580916725e-05 2.39171925872e-05 1.02991219314e-05 4.75377958459e-06 2.06548836835e-06 4.4570963158e-07 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -45.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS430_1"
-        name="Delfi"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.698234 38.523002 22.670083 38.513643 22.641932 38.504284 22.610801 38.494406 22.582981 38.490246 22.55185 38.485047 22.523368 38.482967 22.500847 38.484007 22.481639 38.487126 22.450507 38.497005 22.40944 38.510004
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    57.5
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    12.5
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.44945 38.428572 22.471746 38.398821 22.49404 38.376944 22.511876 38.362069 22.531942 38.349818 22.552008 38.338442 22.5665 38.334067 22.596598 38.329692 22.61332 38.327942
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        65.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        10.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000755628921477 0.000620700516649 0.000546097386081 0.000553627826238 0.000571654579005 0.000423348512343 0.000340223037716 0.000380386077177 0.000423278794032 0.000238003281523 9.98245342284e-05 3.78454228815e-05 2.41307660838e-05 1.14646958203e-05 3.63734337759e-06 5.42279606384e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -85.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS440_1"
+            name="Antikyra"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000576666160216 0.000468731852662 0.000380999553742 0.000309688063927 0.000256752810444 0.000233328821547 0.000242995473003 0.000241390345276 0.000171079358908 0.000148001947622 0.000177531951756 0.000182823420824 8.94063259645e-05 3.40059448479e-05 1.4388908101e-05 7.69148632673e-06 3.98438324572e-06 1.05729076531e-06 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS437_1"
-        name="Tritaea"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.429825 38.468628 22.411656 38.468628 22.385102 38.464239 22.352258 38.457657 22.318716 38.452172 22.291463 38.446687
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    65.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    10.5
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.39299530981"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.719222 38.466199 22.694697 38.441698 22.674632 38.413696 22.643419 38.38832 22.618894 38.367319 22.595484 38.345443
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        65.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        11.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000332001935986 0.000272837277514 0.000240479391041 0.000244239740062 0.000251642688643 0.000185715815265 0.000149789137406 0.000168393930188 0.00018659227601 0.000103980765219 4.33150216214e-05 1.65388171786e-05 1.06390932345e-05 5.0059068636e-06 1.57126370184e-06 2.31320146865e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -107.5
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS441_1"
+            name="Trikorfo"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    1.57627428405e-06 1.5647161874e-05 0.000297951878463 0.000319454987571 0.000295802660511 0.000199864917812 0.000194839057389 0.000232286879929 0.000156628156927 7.78373445767e-05 2.72985513369e-05 1.30342438667e-05 7.61627974495e-06 3.03993307212e-06 5.93669402124e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -95.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS444_1"
-        name="Ormos Eratinis South"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.130741 38.320969 22.167078 38.309988 22.203415 38.300106 22.24115 38.295714 22.269102 38.294616 22.298451 38.299008 22.326403 38.309988 22.341776 38.316576
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    70.0
-                </dip>
-                <upperSeismoDepth>
-                    0.5
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    8.5
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.45697678321"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            21.888171 38.442136 21.907679 38.449573 21.931646 38.454824 21.945023 38.457886 21.957286 38.457449 21.977909 38.455261 22.006335 38.447823 22.04145 38.431197 22.07322 38.414134 22.08604 38.408884
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        65.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        10.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000331516237918 0.000272565065528 0.000240694299908 0.000244912222848 0.000251761484065 0.000185161184575 0.000149919851332 0.000169471290157 0.000186951846541 0.000103229149859 4.27071764945e-05 1.64307778787e-05 1.06612598694e-05 4.96671016517e-06 1.54193412952e-06 2.2408961205e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS442_1"
+            name="Marathias"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    1.46011315898e-06 0.000283256434388 0.000275994770002 0.000295913240338 0.000239094879724 0.000185136178055 0.000180480690737 0.000215168853209 0.000145085684204 7.21012403911e-05 2.52868263039e-05 1.20737051792e-05 7.0550096456e-06 2.8159098489e-06 5.49919842566e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS505_1"
-        name="Psathopyrgos"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        21.759632 38.319266 21.78893 38.318977 21.820168 38.322062 21.851706 38.323488 21.894462 38.323488 21.938213 38.327391 21.956111 38.328171 21.995885 38.328952
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    55.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    12.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            21.888171 38.411509 21.915482 38.409759 21.948368 38.405821 21.983482 38.401008 22.006335 38.396633 22.02863 38.393133 22.040335 38.393133 22.062073 38.391383 22.091614 38.390508 22.115024 38.38657 22.139548 38.381757 22.162401 38.380007 22.19027 38.376945
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        65.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        10.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000378515392823 0.000307668862124 0.000250082640008 0.000211168579423 0.000200568573504 0.000213543046943 0.000203177690564 0.000139038635275 0.00013109069904 0.00015919429615 0.000115088411147 6.14718018e-05 2.17415830539e-05 8.88792007814e-06 5.61079403322e-06 2.44112552991e-06 5.27598884981e-07 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS443_1"
+            name="Ormos Eratinis North"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.00208740016038 0.0016967025498 0.00137913160933 0.00115282083429 0.00107097136023 0.00112966309833 0.00109344149637 0.000765458853549 0.000699394978113 0.000858209084717 0.000838370261501 0.000379738536807 0.000137807244085 6.14548508638e-05 3.24609154892e-05 1.53341255009e-05 3.65083689938e-06 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -95.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS518_1"
-        name="South Alkyonides Gulf"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        23.279358 38.103352 23.245681 38.098852 23.219887 38.095478 23.199108 38.087041 23.171164 38.073542 23.15755 38.065668 23.138204 38.057232 23.113842 38.048233 23.096646 38.044296 23.079449 38.039796 23.060104 38.030797 23.049356 38.028547 23.029293 38.025173 23.007798 38.018986 22.981287 38.013924 22.96409 38.014486 22.939012 38.019548 22.913934 38.021798 22.881245 38.024294 22.844432 38.022923
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    57.5
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    13.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.045488 38.351713 22.08462 38.351713 22.109777 38.349517 22.143319 38.345125 22.169873 38.340733 22.197825 38.339635 22.229969 38.337439
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        67.5
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        9.5
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.46124551989"
+                >
+                    <occurRates>
+                        1.45267494436e-06 0.000281813448865 0.000274588777378 0.000294405777594 0.000237876865204 0.000184193043876 0.000179561272881 0.000214072724393 0.000144346578163 7.173393701e-05 2.51580083148e-05 1.20121984324e-05 7.01906950251e-06 2.80156483621e-06 5.47118400921e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -95.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS444_1"
+            name="Ormos Eratinis South"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.00276007280799 0.00224347140517 0.00182356202026 0.00148224685819 0.00120481547882 0.000979310787533 0.000810086963593 0.000731075508274 0.000757663455913 0.000758892447448 0.000541401782784 0.000460501552951 0.000546453343812 0.000572316806162 0.000287494044389 0.000111362859704 4.63381474803e-05 3.17714604279e-05 1.32558796144e-05 3.65281920298e-06 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -97.5
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS510_1"
-        name="Xylokastro"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.786911 38.043071 22.739667 38.049846 22.699433 38.058824 22.648277 38.076748 22.596869 38.095181 22.548001 38.116104 22.503575 38.131548 22.47565 38.137028 22.427416 38.14201 22.400125 38.144003 22.3722 38.146494
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    47.5
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    12.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.130741 38.320969 22.167078 38.309988 22.203415 38.300106 22.24115 38.295714 22.269102 38.294616 22.298451 38.299008 22.326403 38.309988 22.341776 38.316576
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        70.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.5
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        8.5
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.45697678321"
+                >
+                    <occurRates>
+                        1.46011315898e-06 0.000283256434388 0.000275994770002 0.000295913240338 0.000239094879724 0.000185136178055 0.000180480690737 0.000215168853209 0.000145085684204 7.21012403911e-05 2.52868263039e-05 1.20737051792e-05 7.0550096456e-06 2.8159098489e-06 5.49919842566e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS453_1"
+            name="Kineta"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.0106069102878 0.00862162036413 0.00700791613075 0.00569624808579 0.00463008427177 0.00376347378851 0.00310940142793 0.0027951371183 0.00288826966731 0.0029064786588 0.00208253858829 0.00175480398412 0.00206781335113 0.002186412758 0.00111580948377 0.000437062429413 0.000180164396148 0.000123148998496 5.24852020572e-05 1.47872358555e-05 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -87.5
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS500_1"
-        name="South Corinth Gulf"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        21.914349 38.270413 21.927393 38.261905 21.962703 38.246402 22.002979 38.230037 22.043255 38.213672 22.085187 38.195584 22.110566 38.189555 22.14698 38.181803 22.193325 38.178358 22.240773 38.174052 22.29705 38.171468 22.328199 38.170729 22.359347 38.16999
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    40.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    11.5
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            23.179095 37.992273 23.196633 37.988831 23.209299 37.985772 23.22294 37.980036 23.230735 37.976212 23.240478 37.974682 23.262888 37.975447 23.273118 37.975829 23.289682 37.973152 23.305271 37.969711 23.326707 37.970475 23.363244 37.970858 23.402705 37.967416 23.429012 37.965887
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        60.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        13.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000434980672869 0.000353565564849 0.000287388880574 0.000235649787784 0.000205706452081 0.000206794266113 0.00021556277424 0.00016232096576 0.000128585056421 0.000140001444851 0.000158576191274 9.29179632378e-05 4.02695022006e-05 1.48328810865e-05 9.03393177697e-06 4.48684067774e-06 1.49512865037e-06 2.3614801707e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS500_1"
+            name="South Corinth Gulf"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.00260795564581 0.00211982593372 0.00172305920788 0.00140055510533 0.00113841392918 0.000925337581662 0.000752142624128 0.000630628363914 0.000590040868924 0.000624467963922 0.000603803877921 0.000417619517109 0.000385797421199 0.000472450100467 0.000453209545111 0.000199885285626 7.17805313058e-05 2.62778517577e-05 1.74229215202e-05 8.00783218442e-06 1.84607582566e-06 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS524_1"
-        name="Mamousia"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.013882 38.150176 22.033597 38.143871 22.050392 38.140432 22.067186 38.13642 22.08179 38.130115 22.094203 38.121517 22.113188 38.114066 22.131443 38.110627 22.15992 38.102603 22.171603 38.097444 22.190588 38.089993 22.220526 38.083115 22.247543 38.079103
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    50.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    10.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            21.914349 38.270413 21.927393 38.261905 21.962703 38.246402 22.002979 38.230037 22.043255 38.213672 22.085187 38.195584 22.110566 38.189555 22.14698 38.181803 22.193325 38.178358 22.240773 38.174052 22.29705 38.171468 22.328199 38.170729 22.359347 38.16999
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        40.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        11.5
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.00260795564581 0.00211982593372 0.00172305920788 0.00140055510533 0.00113841392918 0.000925337581662 0.000752142624128 0.000630628363914 0.000590040868924 0.000624467963922 0.000603803877921 0.000417619517109 0.000385797421199 0.000472450100467 0.000453209545111 0.000199885285626 7.17805313058e-05 2.62778517577e-05 1.74229215202e-05 8.00783218442e-06 1.84607582566e-06 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS505_1"
+            name="Psathopyrgos"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000854076647127 0.000694219561928 0.000564282844853 0.000480555982304 0.000463690633325 0.000496048433993 0.000464107618027 0.000314880913374 0.000303133827637 0.000364154445027 0.00025202000329 0.000128598105706 4.51383962315e-05 2.03977325521e-05 1.22671509742e-05 5.05592646933e-06 1.025343416e-06 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS540_1"
-        name="Kechriae"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.864419 37.81884 22.895513 37.829395 22.928288 37.835332 22.963583 37.839289 23.013166 37.845886 23.046781 37.849184 23.062748 37.847205 23.083757 37.846546 23.114011 37.846546 23.143424 37.846546 23.167794 37.847205
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    60.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    13.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            21.759632 38.319266 21.78893 38.318977 21.820168 38.322062 21.851706 38.323488 21.894462 38.323488 21.938213 38.327391 21.956111 38.328171 21.995885 38.328952
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        55.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        12.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.00208740016038 0.0016967025498 0.00137913160933 0.00115282083429 0.00107097136023 0.00112966309833 0.00109344149637 0.000765458853549 0.000699394978113 0.000858209084717 0.000838370261501 0.000379738536807 0.000137807244085 6.14548508638e-05 3.24609154892e-05 1.53341255009e-05 3.65083689938e-06 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -95.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS510_1"
+            name="Xylokastro"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000429136261513 0.00034881504895 0.000283527516284 0.000230459817408 0.000189786094625 0.000168651402989 0.000172613530488 0.000176106432204 0.000128166890305 0.000105178153814 0.000120895098529 0.000131378624218 7.04575995813e-05 2.85423229035e-05 1.12708304324e-05 7.49581113437e-06 3.38299477889e-06 1.0141255412e-06 1.41437763284e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -95.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS605_1"
-        name="Achaia"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        20.56119 37.00826 20.635559 37.098792 20.678761 37.145579 20.718544 37.180925 20.777116 37.24989 20.835603 37.317173 20.894 37.382775 20.981802 37.464404 21.078799 37.566989 21.140268 37.618012 21.22656 37.699829 21.310069 37.78165 21.382443 37.859055 21.438115 37.929836 21.527191 38.038215 21.586988 38.113761 21.640569 38.170683 21.734395 38.285633
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    80.0
-                </dip>
-                <upperSeismoDepth>
-                    5.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    25.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.786911 38.043071 22.739667 38.049846 22.699433 38.058824 22.648277 38.076748 22.596869 38.095181 22.548001 38.116104 22.503575 38.131548 22.47565 38.137028 22.427416 38.14201 22.400125 38.144003 22.3722 38.146494
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        47.5
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        12.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.0106069102878 0.00862162036413 0.00700791613075 0.00569624808579 0.00463008427177 0.00376347378851 0.00310940142793 0.0027951371183 0.00288826966731 0.0029064786588 0.00208253858829 0.00175480398412 0.00206781335113 0.002186412758 0.00111580948377 0.000437062429413 0.000180164396148 0.000123148998496 5.24852020572e-05 1.47872358555e-05 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -87.5
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS518_1"
+            name="South Alkyonides Gulf"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.0100895864699 0.00820112377821 0.00666612367377 0.00541842874656 0.00440426423487 0.00357992037135 0.00290986852327 0.00236522993374 0.00192253106789 0.00156269192025 0.00127020368014 0.00103246031297 0.000839215249107 0.000682139764104 0.000556882799095 0.000474493907726 0.00046027230664 0.00048982476864 0.000457979993375 0.000335147908602 0.000352601765568 0.000382136003828 0.000220894365334 9.72285856516e-05 3.90769958339e-05 1.77276622247e-05 9.14702035072e-06 2.41594597525e-06 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                160.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS522_1"
-        name="Loutraki"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        23.04719 37.982774 23.017942 37.983296 22.993346 37.986948 22.976728 37.989557 22.960109 37.994253 22.948808 37.999993 22.934184 38.006777 22.917565 38.013038 22.902941 38.017213 22.884993 38.020865
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    60.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    12.5
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            23.279358 38.103352 23.245681 38.098852 23.219887 38.095478 23.199108 38.087041 23.171164 38.073542 23.15755 38.065668 23.138204 38.057232 23.113842 38.048233 23.096646 38.044296 23.079449 38.039796 23.060104 38.030797 23.049356 38.028547 23.029293 38.025173 23.007798 38.018986 22.981287 38.013924 22.96409 38.014486 22.939012 38.019548 22.913934 38.021798 22.881245 38.024294 22.844432 38.022923
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        57.5
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        13.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.00276007280799 0.00224347140517 0.00182356202026 0.00148224685819 0.00120481547882 0.000979310787533 0.000810086963593 0.000731075508274 0.000757663455913 0.000758892447448 0.000541401782784 0.000460501552951 0.000546453343812 0.000572316806162 0.000287494044389 0.000111362859704 4.63381474803e-05 3.17714604279e-05 1.32558796144e-05 3.65281920298e-06 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -97.5
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS520_1"
+            name="North Alkyonides Gulf"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000183547372392 0.000150312671306 0.000130421462115 0.000130178021405 0.00013669747893 0.000104485437498 8.19976168601e-05 8.71786017091e-05 0.000100009696941 6.06745753212e-05 2.70741416806e-05 9.78228368847e-06 5.69405495456e-06 2.93526373935e-06 1.01926605103e-06 1.68984081911e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS520_1"
-        name="North Alkyonides Gulf"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.763848 38.20897 22.801583 38.206774 22.828137 38.201284 22.85293 38.188955 22.887855 38.179816 22.915827 38.175918 22.928458 38.173309 22.957706 38.172787 22.996262 38.172265 23.014874 38.171743 23.05343 38.175396 23.067389 38.178527 23.073372 38.180614 23.081258 38.186136 23.093058 38.192538 23.099914 38.201847 23.110421 38.214053 23.120508 38.222961 23.129754 38.228569 23.13984 38.233848 23.150768 38.237806 23.162535 38.239126 23.172622 38.238796 23.181868 38.235167 23.190273 38.231208 23.2012 38.228899 23.219692 38.229559 23.233562 38.229889 23.247431 38.231538 23.265923 38.235167
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    60.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    13.5
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.763848 38.20897 22.801583 38.206774 22.828137 38.201284 22.85293 38.188955 22.887855 38.179816 22.915827 38.175918 22.928458 38.173309 22.957706 38.172787 22.996262 38.172265 23.014874 38.171743 23.05343 38.175396 23.067389 38.178527 23.073372 38.180614 23.081258 38.186136 23.093058 38.192538 23.099914 38.201847 23.110421 38.214053 23.120508 38.222961 23.129754 38.228569 23.13984 38.233848 23.150768 38.237806 23.162535 38.239126 23.172622 38.238796 23.181868 38.235167 23.190273 38.231208 23.2012 38.228899 23.219692 38.229559 23.233562 38.229889 23.247431 38.231538 23.265923 38.235167
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        60.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        13.5
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000246636035865 0.000200473296337 0.000162950812939 0.00013245139339 0.000107660534456 8.75097677924e-05 7.11306097241e-05 5.9515970913e-05 5.54191244646e-05 5.8522577613e-05 5.68795081953e-05 3.94969957381e-05 3.62474448212e-05 4.44872798173e-05 4.32070176684e-05 1.94081743544e-05 7.01630088548e-06 2.47099690431e-06 1.66539981046e-06 7.79614982723e-07 1.83647221316e-07 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS522_1"
+            name="Loutraki"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000246636035865 0.000200473296337 0.000162950812939 0.00013245139339 0.000107660534456 8.75097677924e-05 7.11306097241e-05 5.9515970913e-05 5.54191244646e-05 5.8522577613e-05 5.68795081953e-05 3.94969957381e-05 3.62474448212e-05 4.44872798173e-05 4.32070176684e-05 1.94081743544e-05 7.01630088548e-06 2.47099690431e-06 1.66539981046e-06 7.79614982723e-07 1.83647221316e-07 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS440_1"
-        name="Antikyra"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        22.719222 38.466199 22.694697 38.441698 22.674632 38.413696 22.643419 38.38832 22.618894 38.367319 22.595484 38.345443
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    65.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    11.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            23.04719 37.982774 23.017942 37.983296 22.993346 37.986948 22.976728 37.989557 22.960109 37.994253 22.948808 37.999993 22.934184 38.006777 22.917565 38.013038 22.902941 38.017213 22.884993 38.020865
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        60.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        12.5
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000183547372392 0.000150312671306 0.000130421462115 0.000130178021405 0.00013669747893 0.000104485437498 8.19976168601e-05 8.71786017091e-05 0.000100009696941 6.06745753212e-05 2.70741416806e-05 9.78228368847e-06 5.69405495456e-06 2.93526373935e-06 1.01926605103e-06 1.68984081911e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS524_1"
+            name="Mamousia"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000332001935986 0.000272837277514 0.000240479391041 0.000244239740062 0.000251642688643 0.000185715815265 0.000149789137406 0.000168393930188 0.00018659227601 0.000103980765219 4.33150216214e-05 1.65388171786e-05 1.06390932345e-05 5.0059068636e-06 1.57126370184e-06 2.31320146865e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -107.5
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS441_1"
-        name="Trikorfo"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        21.888171 38.442136 21.907679 38.449573 21.931646 38.454824 21.945023 38.457886 21.957286 38.457449 21.977909 38.455261 22.006335 38.447823 22.04145 38.431197 22.07322 38.414134 22.08604 38.408884
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    65.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    10.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.013882 38.150176 22.033597 38.143871 22.050392 38.140432 22.067186 38.13642 22.08179 38.130115 22.094203 38.121517 22.113188 38.114066 22.131443 38.110627 22.15992 38.102603 22.171603 38.097444 22.190588 38.089993 22.220526 38.083115 22.247543 38.079103
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        50.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        10.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000854076647127 0.000694219561928 0.000564282844853 0.000480555982304 0.000463690633325 0.000496048433993 0.000464107618027 0.000314880913374 0.000303133827637 0.000364154445027 0.00025202000329 0.000128598105706 4.51383962315e-05 2.03977325521e-05 1.22671509742e-05 5.05592646933e-06 1.025343416e-06 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -90.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS540_1"
+            name="Kechriae"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000331516237918 0.000272565065528 0.000240694299908 0.000244912222848 0.000251761484065 0.000185161184575 0.000149919851332 0.000169471290157 0.000186951846541 0.000103229149859 4.27071764945e-05 1.64307778787e-05 1.06612598694e-05 4.96671016517e-06 1.54193412952e-06 2.2408961205e-07 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
-        <simpleFaultSource
-        id="GRCS442_1"
-        name="Marathias"
-        tectonicRegion="Active Shallow Crust"
-        >
-            <simpleFaultGeometry>
-                <gml:LineString>
-                    <gml:posList>
-                        21.888171 38.411509 21.915482 38.409759 21.948368 38.405821 21.983482 38.401008 22.006335 38.396633 22.02863 38.393133 22.040335 38.393133 22.062073 38.391383 22.091614 38.390508 22.115024 38.38657 22.139548 38.381757 22.162401 38.380007 22.19027 38.376945
-                    </gml:posList>
-                </gml:LineString>
-                <dip>
-                    65.0
-                </dip>
-                <upperSeismoDepth>
-                    0.0
-                </upperSeismoDepth>
-                <lowerSeismoDepth>
-                    10.0
-                </lowerSeismoDepth>
-            </simpleFaultGeometry>
-            <magScaleRel>
-                WC1994
-            </magScaleRel>
-            <ruptAspectRatio>
-                1.5
-            </ruptAspectRatio>
-            <incrementalMFD
-            binWidth="0.1"
-            minMag="5.5"
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            22.864419 37.81884 22.895513 37.829395 22.928288 37.835332 22.963583 37.839289 23.013166 37.845886 23.046781 37.849184 23.062748 37.847205 23.083757 37.846546 23.114011 37.846546 23.143424 37.846546 23.167794 37.847205
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        60.0
+                    </dip>
+                    <upperSeismoDepth>
+                        0.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        13.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.000429136261513 0.00034881504895 0.000283527516284 0.000230459817408 0.000189786094625 0.000168651402989 0.000172613530488 0.000176106432204 0.000128166890305 0.000105178153814 0.000120895098529 0.000131378624218 7.04575995813e-05 2.85423229035e-05 1.12708304324e-05 7.49581113437e-06 3.38299477889e-06 1.0141255412e-06 1.41437763284e-07 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    -95.0
+                </rake>
+            </simpleFaultSource>
+            <simpleFaultSource
+            id="GRCS605_1"
+            name="Achaia"
+            tectonicRegion="Active Shallow Crust"
             >
-                <occurRates>
-                    0.000378515392823 0.000307668862124 0.000250082640008 0.000211168579423 0.000200568573504 0.000213543046943 0.000203177690564 0.000139038635275 0.00013109069904 0.00015919429615 0.000115088411147 6.14718018e-05 2.17415830539e-05 8.88792007814e-06 5.61079403322e-06 2.44112552991e-06 5.27598884981e-07 0.0 0.0
-                </occurRates>
-            </incrementalMFD>
-            <rake>
-                -90.0
-            </rake>
-        </simpleFaultSource>
+                <simpleFaultGeometry>
+                    <gml:LineString>
+                        <gml:posList>
+                            20.56119 37.00826 20.635559 37.098792 20.678761 37.145579 20.718544 37.180925 20.777116 37.24989 20.835603 37.317173 20.894 37.382775 20.981802 37.464404 21.078799 37.566989 21.140268 37.618012 21.22656 37.699829 21.310069 37.78165 21.382443 37.859055 21.438115 37.929836 21.527191 38.038215 21.586988 38.113761 21.640569 38.170683 21.734395 38.285633
+                        </gml:posList>
+                    </gml:LineString>
+                    <dip>
+                        80.0
+                    </dip>
+                    <upperSeismoDepth>
+                        5.0
+                    </upperSeismoDepth>
+                    <lowerSeismoDepth>
+                        25.0
+                    </lowerSeismoDepth>
+                </simpleFaultGeometry>
+                <magScaleRel>
+                    WC1994
+                </magScaleRel>
+                <ruptAspectRatio>
+                    1.5
+                </ruptAspectRatio>
+                <incrementalMFD
+                binWidth="0.1"
+                minMag="5.5"
+                >
+                    <occurRates>
+                        0.0100895864699 0.00820112377821 0.00666612367377 0.00541842874656 0.00440426423487 0.00357992037135 0.00290986852327 0.00236522993374 0.00192253106789 0.00156269192025 0.00127020368014 0.00103246031297 0.000839215249107 0.000682139764104 0.000556882799095 0.000474493907726 0.00046027230664 0.00048982476864 0.000457979993375 0.000335147908602 0.000352601765568 0.000382136003828 0.000220894365334 9.72285856516e-05 3.90769958339e-05 1.77276622247e-05 9.14702035072e-06 2.41594597525e-06 0.0 0.0
+                    </occurRates>
+                </incrementalMFD>
+                <rake>
+                    160.0
+                </rake>
+            </simpleFaultSource>
+        </sourceGroup>
     </sourceModel>
 </nrml>
